@@ -38,7 +38,7 @@
     
     
       
-        <title>AWS Well-Architected Labs</title>
+        <title>IAM Permission Boundaries Delegating Role Creation - AWS Well-Architected Labs</title>
       
     
     
@@ -146,7 +146,7 @@
               AWS Well-Architected Labs
             </span>
             <span class="md-header-nav__topic">
-              Level 300: IAM Permission Boundaries Delegating Role Creation
+              IAM Permission Boundaries Delegating Role Creation
             </span>
           
         </div>
@@ -213,14 +213,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." title="Home" class="md-tabs__link md-tabs__link--active">
+      <a href="../.." title="Home" class="md-tabs__link">
         Home
       </a>
     
@@ -245,7 +247,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../" title="Security" class="md-tabs__link">
+        <a href="../" title="Security" class="md-tabs__link md-tabs__link--active">
           Security
         </a>
       
@@ -258,7 +260,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../Cost_Fundamentals/100_1_AWS_Account_Setup/README.md" title="Operational Excellence" class="md-tabs__link">
+        <a href="../../Operations/" title="Operational Excellence" class="md-tabs__link">
           Operational Excellence
         </a>
       
@@ -269,13 +271,19 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
-        <a href="../../Reliability/" title="Reliability" class="md-tabs__link">
+        <a href="../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/" title="Reliability" class="md-tabs__link">
           Reliability
         </a>
       
     </li>
+  
+
   
 
       
@@ -284,7 +292,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../Cost_Fundamentals/100_1_AWS_Account_Setup/README.md" title="Performance Efficiency" class="md-tabs__link">
+        <a href="../../Performance/" title="Performance Efficiency" class="md-tabs__link">
           Performance Efficiency
         </a>
       
@@ -414,10 +422,478 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-2" type="checkbox" id="nav-2-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2-2">
+      100 Account Setup
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-2">
+        100 Account Setup
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/" title="Account Setup" class="md-nav__link">
-      Account Setup
+    <a href="../../Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-3" type="checkbox" id="nav-2-2-3">
+    
+    <label class="md-nav__link" for="nav-2-2-3">
+      100 Governance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-3">
+        100 Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-4" type="checkbox" id="nav-2-2-4">
+    
+    <label class="md-nav__link" for="nav-2-2-4">
+      100 Analysis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-4">
+        100 Analysis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-5" type="checkbox" id="nav-2-2-5">
+    
+    <label class="md-nav__link" for="nav-2-2-5">
+      100 Visualization
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-5">
+        100 Visualization
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_5_Cost_Visualization/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_5_Cost_Visualization/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_5_Cost_Visualization/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-6" type="checkbox" id="nav-2-2-6">
+    
+    <label class="md-nav__link" for="nav-2-2-6">
+      200 Governance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-6">
+        200 Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-7" type="checkbox" id="nav-2-2-7">
+    
+    <label class="md-nav__link" for="nav-2-2-7">
+      200 Pricing Models
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-7">
+        200 Pricing Models
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_3_Pricing_Models/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_3_Pricing_Models/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_3_Pricing_Models/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-8" type="checkbox" id="nav-2-2-8">
+    
+    <label class="md-nav__link" for="nav-2-2-8">
+      200 Analysis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-8">
+        200 Analysis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-9" type="checkbox" id="nav-2-2-9">
+    
+    <label class="md-nav__link" for="nav-2-2-9">
+      200 Visualization
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-9">
+        200 Visualization
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_5_Cost_Visualization/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_5_Cost_Visualization/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_5_Cost_Visualization/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -462,9 +938,172 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3-2" type="checkbox" id="nav-2-3-2">
+    
+    <label class="md-nav__link" for="nav-2-3-2">
+      100 Analysis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-2">
+        100 Analysis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/" title="Automated CUR Updates and Ingestion" class="md-nav__link">
-      Automated CUR Updates and Ingestion
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3">
+    
+    <label class="md-nav__link" for="nav-2-3-3">
+      200 Analysis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-3">
+        200 Analysis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4">
+    
+    <label class="md-nav__link" for="nav-2-3-4">
+      300 Automated CUR Updates and Ingestion
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-4">
+        300 Automated CUR Updates and Ingestion
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/Checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/Lab_Guide/" title="Lab Guide" class="md-nav__link">
+      Lab Guide
     </a>
   </li>
 
@@ -478,15 +1117,22 @@
     </nav>
   </li>
 
+        
+      </ul>
+    </nav>
+  </li>
+
     
       
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Security
@@ -515,10 +1161,277 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Security 100 Labs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Security 100 Labs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../100 - CloudFront with S3 Bucket Origin/" title="Cloudfront with S3" class="md-nav__link">
-      Cloudfront with S3
+    <a href="../100 - AWS Account & Root User/" title="Account and Root User" class="md-nav__link">
+      Account and Root User
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../100 - Basic Identity & Access Management User, Group, Role/" title="Basic Identity & Access Management User, Group, Role" class="md-nav__link">
+      Basic Identity & Access Management User, Group, Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../100 - CloudFront with S3 Bucket Origin/" title="CloudFront with S3 Bucket Origin" class="md-nav__link">
+      CloudFront with S3 Bucket Origin
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Security 200 Labs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Security 200 Labs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - Automated Deployment of Detective Controls/" title="Automated Deployment of Detective Controls" class="md-nav__link">
+      Automated Deployment of Detective Controls
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - Automated Deployment of EC2 Web Application/" title="Automated Deployment of EC2 Web Application" class="md-nav__link">
+      Automated Deployment of EC2 Web Application
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - Automated Deployment of IAM Groups and Roles/" title="Automated Deployment of IAM Groups and Roles" class="md-nav__link">
+      Automated Deployment of IAM Groups and Roles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - Automated Deployment of VPC/" title="Automated Deployment of VPC" class="md-nav__link">
+      Automated Deployment of VPC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - Basic EC2 with WAF Protection/" title="Basic EC2 with WAF Protection" class="md-nav__link">
+      Basic EC2 with WAF Protection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../200 - CloudFront with WAF Protection/" title="CloudFront with WAF Protection" class="md-nav__link">
+      CloudFront with WAF Protection
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" checked>
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Security 300 Labs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Security 300 Labs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        IAM Permission Boundaries Delegating Role Creation
+      </label>
+    
+    <a href="./" title="IAM Permission Boundaries Delegating Role Creation" class="md-nav__link md-nav__link--active">
+      IAM Permission Boundaries Delegating Role Creation
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goals" title="Goals:" class="md-nav__link">
+    Goals:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites:" class="md-nav__link">
+    Prerequisites:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permissions-required" title="Permissions required" class="md-nav__link">
+    Permissions required
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" title="License" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../300 - IAM Tag Based Access Control for EC2/" title="IAM Tag Based Access Control for EC2" class="md-nav__link">
+      IAM Tag Based Access Control for EC2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -552,8 +1465,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Cost_Fundamentals/100_1_AWS_Account_Setup/README.md" title="100 1 AWS Account Setup" class="md-nav__link">
-      100 1 AWS Account Setup
+    <a href="../../Operations/" title="Coming Soon" class="md-nav__link">
+      Coming Soon
     </a>
   </li>
 
@@ -587,9 +1500,28 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Testing Resiliency
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        Testing Resiliency
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../Reliability/" title="Reailibility" class="md-nav__link">
-      Reailibility
+    <a href="../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/" title="Lab Overview" class="md-nav__link">
+      Lab Overview
     </a>
   </li>
 
@@ -600,9 +1532,26 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3" title="Testing Resiliency" class="md-nav__link">
-      Testing Resiliency
+    <a href="../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Checklist.md" title="Checklist" class="md-nav__link">
+      Checklist
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Lab_Guide.md" title="Lab Guide" class="md-nav__link">
+      Lab Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -636,8 +1585,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Cost_Fundamentals/100_1_AWS_Account_Setup/README.md" title="100 1 AWS Account Setup" class="md-nav__link">
-      100 1 AWS Account Setup
+    <a href="../../Performance/" title="Coming Soon" class="md-nav__link">
+      Coming Soon
     </a>
   </li>
 
@@ -777,6 +1726,41 @@ NOTE: You will be billed for any applicable AWS resources used if you complete t
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../200 - CloudFront with WAF Protection/" title="CloudFront with WAF Protection" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                CloudFront with WAF Protection
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../300 - IAM Tag Based Access Control for EC2/" title="IAM Tag Based Access Control for EC2" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                IAM Tag Based Access Control for EC2
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
