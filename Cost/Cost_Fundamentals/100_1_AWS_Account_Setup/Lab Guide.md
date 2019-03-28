@@ -107,7 +107,7 @@ Repeat the steps above (exercise 1.2) for each additional account in your organi
 
 
 ## 3. Configure billing account settings<a name="account_settings"></a>
-It is important to ensure your account contacts are up to date and correct. This allows AWS to be able to contact the correct people in your organization if required. It is recommended to use a mailing list or shared email that is accessible by muptile team members for redudancy. Ensure the email accounts are actively monitored.
+It is important to ensure your account contacts are up to date and correct. This allows AWS to be able to contact the correct people in your organization if required. It is recommended to use a mailing list or shared email that is accessible by muptile team members for redundancy. Ensure the email accounts are actively monitored.
 
 1. Log in to your Master account as an IAM user with the required permissions, Click on the account name in the top right, and click on **My Account** from the menu:
 ![Images/AWSAcct11.png](Images/AWSAcct1.png)
